@@ -1,0 +1,363 @@
+<!--Html for Sports Academy Website-->
+
+<html> <!--Start of html-->
+<html lang="en"> <!--Language used is English-->
+
+<head> <!--The start of head tag-->
+    <meta charset="UTF-8"> <!--Character set used is UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Content width is device width to make it responsive-->
+    <title>Gym Fitness</title> <!--Title of the Webpage-->
+    <link rel="stylesheet" type="text/css" href="task1_sportsLandingPageStyle.css"> <!--Linking of external CSS file-->
+    <link rel="stylesheet" type="text/css" href="task1_sportslandingPagemedia.css">
+    <!--Linking of external media queries files-->
+
+</head> <!--Ending of head-->
+
+
+<body> <!--Start of the body-->
+
+    <!--Section 1
+    This section deals with the front or the first page of the webpage.-->
+
+    <div class="section1"> <!--This is section 1 , or the first page.-->
+
+        <header class="header"> <!--header section which contains the logo, the navigation section and the 2 buttons-->
+
+            <div class="left"> <!-- left for logo -->
+                <img src="Images\logo1.jpeg"> <!--Logo image-->
+                <div> All About Fitness</div> <!--Text section below image-->
+
+            </div> <!--End of div with class left-->
+
+
+            <div class="mid"> <!--div for navigation-->
+                <ul class="navbar"><!--Unordered list for the navigation bar in between-->
+                    <!--Anchor tag is used in li tag to convert the list items into the links-->
+                    <li><a href="#">Home</a></li> <!--List item for home-->
+                    <li><a href="#">About us</a></li><!--List item for About us-->
+                    <li><a href="#">Fitness Calculator</a></li><!--List item for Fitness Calculator-->
+                    <li><a href="#">Contact us</a></li><!--List item for Contact us-->
+                </ul> <!--End of ul with class navbar-->
+
+            </div> <!--End of div with class mid-->
+
+
+
+            <div class="right"><!--div for rightmost buttons -->
+                <a href="#"><button class="btn">Call us now</button></a> <!--Anchor tag for Call us now button-->
+                <a href="#"><button class="btn">Email us</button></a> <!--Anchor tag for Email us button-->
+            </div> <!--End of div with class right-->
+
+        </header> <!--End of the header -->
+
+
+
+        <div class=" description"> <!--Div with class description which contains a heading and some text for webpage-->
+            <h1>Best Sports Academy in the World !</h1> <!--Heading -->
+            <!--Below is some text which is parallel to the registration form-->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ipsum cumque hic perspiciatis sed quis
+                nostrum cum aut maiores iure? Recusandae expedita atque similique quae animi inventore quo reiciendis
+                numquam repudiandae cupiditate facere assumenda, laborum ullam dolore. Sed provident cum consequatur
+                amet. Doloremque eum qui nostrum soluta debitis dolore provident laudantium illum, totam est quasi.
+                Sequi adipisci, doloremque voluptatibus corrupti ipsa similique, est maiores maxime vel quisquam odit
+                assumenda. Quo iure fugit alias commodi. Iure aliquid ab totam cupiditate perferendis placeat ea dolorem
+                dicta eius voluptatum, tempora laborum illo consequatur aspernatur ipsa nam? Eligendi magni accusantium
+                voluptas iste asperiores ipsa!</p>
+        </div> <!--End of div with class description-->
+
+        <div class="container"> <!--A div with class container which contains the form for registration-->
+            <h1> Register for the demo session now ! </h1> <!--Heading of the form -->
+            <form action="noaction.php" onsubmit="return validateForm()"> <!-- Starting of the form -->
+                <!-- action ="noaction.php specifies url to which the form data will be sent when the user submits the form
+                    Here the action means the the data will not actually be sen to the server side , its like placeholder value
+                    
+                    onsubmit ="return validateFrom()" is an event handler in javascript which specfies that a function call will take 
+                place when user submits the form. The form will only be getting submitted when the validateFrom() function returns a true value.
+            This is used for form validation. -->
+
+                <!--The class "form-group" is used with every div element of the form for styling purpose -->
+                <!--input type text is used to define that the valued entered will be of text format
+        name attribute will be used to identify the input when the form is submitted
+    placeholder attributes defines the hint for user for the type of values to be used for entering details in form.-->
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="phoneno" placeholder="Enter your phoneno.">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="age" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="location" placeholder="Enter your Location">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="country" placeholder="Enter your Country">
+                </div>
+                <button class="btn" type="submit" id="submitted">Submit</button>
+            </form> <!--End of the form-->
+        </div> <!--End of div with class container-->
+
+
+    </div> <!--End of div with class Section 1-->
+
+    <!--End of the first page of the webpage-->
+
+
+    <!--Section 2-->
+    <div class="section2"> <!--Start of the Section 2-->
+        <h1>Pricing</h1> <!--Heading -->
+        <!--Below is some textual content right after h1 heading-->
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem deserunt deleniti soluta quisquam! Nesciunt
+            consequuntur, eum, ducimus, porro explicabo qui ut nostrum tempora quas alias eos perspiciatis amet non
+            enim?</p>
+
+        <div class="price_box">
+            <!--This is div with class "price_box" which contains the pricing box for different plans.-->
+
+            <div class="box"> <!--First box, made with div element and with class "box"-->
+
+                <h2>Free</h2> <!--Heading of box 1  -->
+                <ul> <!--Unordered list open -->
+                    <li class="firstline">₹0/month</li> <!--List item with class "firstline" to mark the first line of the box with some 
+                    special styling-->
+                    <li>0 users included</li><!--List item-->
+                    <li>2 GB of storage</li><!--List item-->
+                    <li>Email support</li><!--List item-->
+                    <li>Help center access</li><!--List item-->
+                    <li><button class="btn1">Signup Now</button></li>
+                    <!--List item with button for "Sign Up Now" feature , that too with class "btn"-->
+                </ul><!--End of Unordered List-->
+
+                <p class="deal text-center">The deal ends in <span id="demo"></span></p>
+                <!--This paragraph is assigned two classe, namely
+                "deal" and "text-center" which are used for styling purpose. 
+                 The paragraph has a text content with an empty span element.The purpose of this empty <span> is to serve as a placeholder
+                 for dynamic content that will be inserted or updated using JavaScript.Typically, JavaScript code would be used to
+                  update the content of the <span> element with a countdown timer or a specific time remaining until the deal ends. 
+                    The "id" attribute ("demo") allows JavaScript to target this specific element and modify its content dynamically.-->
+
+
+            </div> <!--End of the first box-->
+
+            <div class="box"> <!--Second box, made with div element and with class "box"-->
+                <h2>Pro</h2> <!--Heading of box 3  -->
+                <ul><!--Unordered list open -->
+                    <li class="firstline">₹150/month</li><!--List item with class "firstline" to mark the first line of the box with some 
+                        special styling-->
+                    <li>0 users included</li><!--List item-->
+                    <li>2 GB of storage</li><!--List item-->
+                    <li>Email support</li><!--List item-->
+                    <li>Help center access</li><!--List item-->
+                    <li><button class="btn1">Signup Now</button></li>
+                    <!--List item with button for "Sign Up Now" feature , that too with class "btn"-->
+                </ul><!--End of Unordered List-->
+            </div><!--End of the second box-->
+
+            <div class="box"> <!--Third box, made with div element and with class "box"-->
+                <h2>Enterprise</h2> <!--Heading of box 3 -->
+                <ul><!--Unordered list open -->
+                    <li class="firstline">₹500/month</li><!--List item with class "firstline" to mark the first line of the box with some 
+                        special styling-->
+                    <li>0 users included</li> <!--List item-->
+                    <li>2 GB of storage</li><!--List item-->
+                    <li>Email support</li><!--List item-->
+                    <li>Help center access</li><!--List item-->
+                    <li><button class="btn1">Signup Now</button></li>
+                    <!--List item with button for "Sign Up Now" feature , that too with class "btn"-->
+                </ul><!--End of Unordered List-->
+            </div><!--End of the third box-->
+        </div> <!--End of div with class price_box-->
+
+        <!-- Section 3: comparison plan -->
+        <div class="section3"> <!--Div element of class "section3" which marks the start of section 3-->
+            <h1 class="text-center my-2">Compare Plans</h1> <!--Heading with boostrap classes "text-center" to center align the content 
+            and "my-2" which means margin of 0.5rem from top and bottom-->
+            <div> <!--Start of div element to contain comparison plan table-->
+                <table class="table text-center">
+                    <!--Start of the table with class "table" and "text-center" used for styling purpose-->
+                    <thead> <!--Start of table heading tag-->
+                        <tr class="theading"> <!-- Start of table row with class "theading"-->
+                            <th></th> <!--Empty table heading-->
+                            <th>Free</th> <!--Table heading for Free-->
+                            <th>Pro</th> <!--Table heading for Pro-->
+                            <th>Enterprise</th> <!--Table heading for Enterprise-->
+                        </tr> <!--End of table row with class "theading"-->
+                    </thead> <!--End of table heading tag-->
+                    <tbody> <!--Start of table body-->
+                        <tr> <!---first Table row start-->
+                            <th class="text-start">Public</th> <!--Table heading for Public row with class "text-start" means the text will be
+                            left aligned , otherwise orientation of the table will be distorted-->
+                            <td>Yes</td> <!--Table data-->
+                            <td>Yes</td> <!--Table data-->
+                            <td>Yes</td> <!--Table data-->
+                        </tr> <!--End of table row-->
+                        <tr> <!--Start of Second table row-->
+                            <th class="text-start">Private</th> <!--Table heading for Private row with class "text-start" means the text will be
+                                left aligned , otherwise orientation of the table will be distorted-->
+                            <td>-</td><!--Table data-->
+                            <td>Yes</td><!--Table data-->
+                            <td>Yes</td><!--Table data-->
+                        </tr> <!--End of the second table row-->
+
+                        <tr><!--Start of Third table row-->
+                            <th class="text-start">Permissions</th><!--Table heading for Permission row with class "text-start" means the text will be
+                                left aligned , otherwise orientation of the table will be distorted-->
+                            <td>Yes</td><!--Table data-->
+                            <td>Yes</td><!--Table data-->
+                            <td>Yes</td><!--Table data-->
+                        </tr><!--End of the third table row-->
+                        <tr><!--Start of Fourth table row-->
+                            <th class="text-start">Sharing</th><!--Table heading for Sharing row with class "text-start" means the text will be
+                                left aligned , otherwise orientation of the table will be distorted-->
+                            <td>-</td><!--Table data-->
+                            <td>Yes</td><!--Table data-->
+                            <td>Yes</td><!--Table data-->
+                        </tr><!--End of the Fourth table row-->
+                        <tr><!--Start of Fifth table row-->
+                            <th class="text-start">Unlimited members</th><!--Table heading for Unlimited members row with class "text-start" means the text will be
+                                left aligned , otherwise orientation of the table will be distorted-->
+                            <td>-</td><!--Table data-->
+                            <td>Yes</td><!--Table data-->
+                            <td>Yes</td><!--Table data-->
+                        </tr><!--End of the Fifth table row-->
+                        <tr><!--Start of Sixth table row-->
+                            <th class="text-start">Extra security</th><!--Table heading for Extra Security row with class "text-start" means the text will be
+                                left aligned , otherwise orientation of the table will be distorted-->
+                            <td>-</td><!--Table data-->
+                            <td>-</td><!--Table data-->
+                            <td>Yes</td><!--Table data-->
+                        </tr><!--End of the Sixth table row-->
+                    </tbody> <!--End of the table body-->
+                </table> <!--End of the table -->
+            </div> <!--End of the div containing the comparsion table-->
+        </div> <!--End of div with class "Section-3"-->
+
+
+        <!--Start of the footer Section -->
+        <footer> <!--Footer Start-->
+            Copyright &copy; SportsAcademy.com| All right reserved <!--Textual content-->
+        </footer> <!--Footer ends-->
+
+</body> <!--End of Html body-->
+
+
+<!--Start of the Javascript code to validate the registration form-->
+
+
+<script> //JavaScript Starts here
+    var countDownDate = new Date("August 10, 2023 15:37:25").getTime();
+    // This line creates a JavaScript Date object representing a specific date and time, in this case, August 10, 2023,
+    //  at 15:37:25. It then calls the .getTime() method to get the timestamp representing this date and time in milliseconds
+    //   since January 1, 1970 (Unix epoch) and stores it in the countDownDate variable.
+
+    var x = setInterval(function () {
+        // This line sets up an interval using the setInterval function. It runs the code inside the function every 
+        // 1000 milliseconds (1 second) and assigns the interval ID to the variable x. This interval is used for 
+        // updating a countdown timer.
+        var now = new Date().getTime();
+        //new Date(): This creates a new JavaScript Date object representing the current date and time. When you don't pass
+        // any arguments to the Date constructor, it defaults to the current date and time.
+        //.getTime(): After creating the Date object, the .getTime() method is called on it. This method returns 
+        //the numeric value of the date and time represented by the Date object in milliseconds since the Unix epoch, 
+        //which is January 1, 1970, at 00:00:00 UTC. getTime() is not standalone function, so use it with Date() object.
+
+
+        var distance = countDownDate - now;
+        //Calculates the time difference between the countDownDate and the current time.
+        // This calculates how much time is left until the countDownDate is reached.
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+
+
+
+
+
+
+    function validateForm() {
+        // Get form input values
+        const name = document.getElementsByName("name")[0].value.trim();
+        const email = document.getElementsByName("email")[0].value.trim();
+        const phoneno = document.getElementsByName("phoneno")[0].value.trim();
+        const age = document.getElementsByName("age")[0].value.trim();
+        const location = document.getElementsByName("location")[0].value.trim();
+        const country = document.getElementsByName("country")[0].value.trim();
+
+        // Check if required fields are empty
+        if (name === "" || email === "" || phoneno === "" || age === "" || location === "" || country === "") {
+            alert("All fields are required.");
+            return false;
+        }
+
+        // Validate email format
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            alert("Please enter a valid email address.");
+            return false;
+        }
+
+        // Validate age as a positive number
+        const parsedAge = parseInt(age);
+        if (isNaN(parsedAge) || parsedAge <= 0) {
+            alert("Please enter a valid age.");
+            return false;
+        }
+
+        //validate phone number
+        const phoneRegex = /^\d{10}$/; // 10 digits phone number (change the regex as needed)
+
+        if (!phoneRegex.test(phoneno)) {
+            alert("Please enter a valid 10-digit phone number.");
+            return false;
+        }
+
+        const countryRegex = /^[A-Za-z]+$/; // Only letters, no spaces or special characters
+
+        if (!countryRegex.test(country)) {
+            alert("Please enter a valid country name (letters only).");
+            return false;
+        }
+
+
+        const locationRegex = /^[A-Za-z]+$/; // Only letters, no spaces or special characters
+
+        if (!locationRegex.test(location)) {
+            alert("Please enter a valid location name (letters only).");
+            return false;
+        }
+
+
+        // If all checks pass, the form will be submitted
+        return true;
+    }
+
+    document.getElementById('submitted').addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent default form submission
+
+        if (validateForm()) {
+            alert("Your application has been submitted succesfully");
+
+        }
+    });
+
+</script>
+
+
+
+</html>

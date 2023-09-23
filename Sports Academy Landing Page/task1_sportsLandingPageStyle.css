@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+    background: url("Images/sp3.jpg");
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+    color: white;
+    background-size: cover;
+
+
+
+
+
+}
+
+.left {
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+
+}
+
+.left img {
+    width: 120px;
+    height: 40px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 20px;
+}
+
+.mid {
+    /* border: 2px solid blue; */
+    width: 50%;
+    margin: 20px auto;
+
+
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    /* display: inline-block; */
+
+}
+
+/* .navbar{
+display: inline-block;
+} */
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+}
+
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn1 {
+    margin: 0px 9px;
+    background-color: rgb(135, 41, 9);
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+
+.right a .btn:hover {
+    background-color: grey;
+    font-size: 17px;
+
+}
+
+.btn:hover {
+    background-color: grey;
+    font-size: 17px;
+
+}
+
+.container {
+    border: 2px solid white;
+    margin: 80px 80px;
+    padding: 50px;
+    width: 33%;
+    border-radius: 28px;
+    position: relative;
+    left: 600px;
+
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 350px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 3px auto;
+    border-radius: 10px;
+    font-size: 15px;
+
+
+
+}
+
+.container h1 {
+    text-align: center;
+    color: red;
+}
+
+.container .btn {
+    display: block;
+    width: 23%;
+    margin: 15px auto;
+}
+
+.description {
+    /* border:2px solid red; */
+    position: absolute;
+    bottom: 150px;
+    float: left;
+    width: 350px;
+    height: 350px;
+    left: 50px;
+}
+
+
+
+.description h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.section1 {
+    height: 400px;
+    width: 100%;
+
+}
+
+.section2 {
+    text-align: center;
+    position: relative;
+    top: 300px;
+    background-color: white;
+    height: 630px;
+    width: 105%;
+    color: black;
+
+}
+
+
+
+.section3 {
+    text-align: center;
+    position: relative;
+
+    background-color: white;
+    height: 600px;
+    width: 100%;
+    color: black;
+
+}
+
+.section2 h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+
+.price_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.box h2 {
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+.box {
+    /* margin: 12px 22px; */
+    /* min-width: 20vw; */
+    border: 2px solid black;
+    /* display: flex;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap; */
+    height: 350px;
+    width: 300px;
+    box-shadow: -10px -10px orange;
+
+
+
+}
+
+.box ul li {
+    list-style-type: none;
+    align-items: center;
+    /* margin: auto 5px; */
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.box .firstline {
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.table {
+    margin-top: 30px;
+    margin: auto;
+
+    text-align: center;
+
+    color: black;
+
+    height: 400px;
+    width: 100%;
+    padding: 5px;
+    border-collapse: collapse;
+
+
+}
+
+.theading {
+    font-size: 30px;
+    margin: 20px;
+    margin-top: 30px;
+
+
+
+
+
+}
+
+.text-start {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+
+
+}
+
+.table tr td {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+
+
+}
+
+.theading th {
+    border-bottom: 2px solid black;
+
+}
+
+footer {
+    padding: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin: auto;
+    color: white;
+
+}
+
+.deal {
+    background-color: red;
+    height: 30px;
+    color: white;
+    border-radius: 4px;
+}
